@@ -8,7 +8,24 @@ import pandas as pd
 data = pd.read_csv("precious_metals_prices_2018_2021.csv", usecols=["DateTime", "Gold"])
 
 # Create a plotly figure for use by dcc.Graph()
-fig = px.line(data, x="DateTime", y="Gold", title="Precious Metal Prices 2018-2021")
+fig = px.line(
+    data,
+    title="Precious Metal Prices 2018-2021",
+    x="DateTime",
+    y=["Gold"],
+    color_discrete_map={"Gold": "gold"}
+)
+
+fig.update_layout(
+    template="plotly_dark",
+    xaxis_title="Date",
+    yaxis_title="Price (USD/oz)",
+    font=dict(
+        family="Verdana, sans-serif",
+        size=18,
+        color="white"
+    )
+)
 
 app = dash.Dash(__name__)
 app.title = "Precious Metal Prices 2018-2021"
