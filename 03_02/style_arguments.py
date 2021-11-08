@@ -35,14 +35,17 @@ app.layout = html.Div(
     children=[
         html.Div(
             id="header-area",
+            style={"backgroundColor": "black"},
             children=[
                 html.H1(
                     id="header-title",
+                    style={"color": "white", "fontFamily": "Verdana, sans-serif"},
                     children="Precious Metal Prices",
 
                 ),
                 html.P(
                     id="header-description",
+                    style={"color": "white", "fontFamily": "Verdana, sans-serif"},
                     children=("The cost of precious metals", html.Br(), "between 2018 and 2021"),
                 ),
             ],
