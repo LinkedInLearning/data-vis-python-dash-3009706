@@ -48,6 +48,25 @@ app.layout = html.Div(
             ],
         ),
         html.Div(
+            id="menu-area",
+            children=[
+                html.Div(
+                    children=[
+                        html.Div(
+                            className="menu-title",
+                            children="Metal"
+                        ),
+                        dcc.Dropdown(
+                            id="metal-filter",
+                            className="dropdown",
+                            options=[{"label": metal, "value": metal} for metal in data.columns[1:]],
+                            clearable=False
+                        )
+                    ]
+                )
+            ]
+        ),
+        html.Div(
             id="graph-container",
             children=dcc.Graph(
                 id="price-chart",
