@@ -61,6 +61,27 @@ body {
 	box-shadow: none;
 }
 
+/* Date Range colours */
+/* Calendar date start and end */
+.CalendarDay__selected, .CalendarDay__selected:active, .CalendarDay__selected:hover {
+  background: goldenrod;
+  border: 1px double goldenrod;
+  color: #fff;
+}
+
+/* Calendar in between start and end date */
+.CalendarDay__selected_span {
+    background: gold;
+    border: 1px double gold;
+    color: #fff;
+}
+
+.CalendarDay__selected_span:active, .CalendarDay__selected_span:hover {
+    background: goldenrod;
+    border: 1px double goldenrod;
+    color: #fff;
+}
+
 /* Graph styling */
 #graph-container {
     margin-right: auto;
