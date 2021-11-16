@@ -1,0 +1,93 @@
+body {
+    font-family: Verdana, sans-serif;
+    margin: 0;
+    background-color: #800020;
+}
+
+/* Header styling */
+#header-area {
+    background-color: black;
+    height: 216px;
+	margin:0;
+	padding-top:24px;
+}
+
+#header-title {
+    color: #fff;
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#header-description {
+    color: #dfdfdf;
+    margin: 4px auto;
+    text-align: center;
+    max-width: 384px;
+	font-size: 18px;
+}
+
+/* Menu styling */
+#menu-area {
+    height: 90px;
+    width: 1200px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 12px;
+    margin: -55px auto 0 auto;
+    background-color: gold;
+}
+
+.menu-title {
+    margin-bottom: 6px;
+    font-weight: bold;
+    color: black;
+}
+
+.Select-control {
+    width: 256px;
+    height: 48px;
+}
+
+.Select--single > .Select-control .Select-value, .Select-placeholder {
+    line-height: 48px;
+	font-weight: bold;
+}
+
+/* Remove annoying border when dropdown has been used. */
+.is-focused:not(.is-open)>.Select-control{
+	border:none;
+	box-shadow: none;
+}
+
+/* Date Range colours */
+/* Calendar date start and end */
+.CalendarDay__selected, .CalendarDay__selected:active, .CalendarDay__selected:hover {
+  background: goldenrod;
+  border: 1px double goldenrod;
+  color: #fff;
+}
+
+/* Calendar in between start and end date */
+.CalendarDay__selected_span {
+    background: gold;
+    border: 1px double gold;
+    color: #fff;
+}
+
+.CalendarDay__selected_span:active, .CalendarDay__selected_span:hover {
+    background: goldenrod;
+    border: 1px double goldenrod;
+    color: #fff;
+}
+
+/* Graph styling */
+#graph-container {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1200px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-top: 32px;
+}
