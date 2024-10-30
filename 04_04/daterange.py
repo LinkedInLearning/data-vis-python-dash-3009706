@@ -7,7 +7,7 @@ import pandas as pd
 
 # Read in the data
 data = pd.read_csv("precious_metals_prices_2018_2021.csv")
-data["DateTime"] = pd.to_datetime(data["DateTime"], format="%Y-%m-%d")
+data["DateTime"] = pd.to_datetime(data["DateTime"])
 
 # Create a plotly plot for use by dcc.Graph().
 fig = px.line(
