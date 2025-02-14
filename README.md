@@ -4,6 +4,10 @@ This is the repository for the LinkedIn Learning course `Data Visualization in P
 
 ![lil-thumbnail-url]
 
+## Course Description
+
+<p>Data is everywhere. It’s fundamental to your business process. It allows you to make sound, well-informed decisions driven by evidence, not just conjecture. But how should you represent it? The answer depends, especially when you’re working with stakeholders who don’t have a technical background. That’s where Dash comes in. It’s a powerful and easy-to-use data visualization tool that can help you make optimal strategic decisions.</p><p>In this course, instructor Robin Andrews gives you an overview of everything you need to know to get started using Dash with Python. Discover how to build powerful and attractive data visualizations. Learn about creating plots, styling applications, and adding user interactivity to cultivate more responsive, data-driven relationships. Robin explores strategies to help you get the most out of the Dash experience, and shows you how to deploy your Dash apps to the cloud using Heroku.</p>
+
 This course is integrated with GitHub Codespaces, an instant cloud developer environment that offers all the functionality of your favorite IDE without the need for any local machine setup. With GitHub Codespaces, you can get hands-on practice from any machine, at any time-all while using a tool that you'll likely encounter in the workplace. Check out the "Setting up GitHub CodeSpaces" video to learn how to get started.
 
 ## Instructions
@@ -31,7 +35,15 @@ To resolve this issue:
 2. Clone this repository into your local machine using the terminal (Mac), CMD (Windows), or a GUI tool like SourceTree.
 3. Make sure all the relevant packages are installed as per the instructions in the video named "Setting Up Your Local Development Environment."
 
+## Instructor
+
+Robin Andrews
+
+Founder of Compucademy     
+
+Check out my other courses on [LinkedIn Learning](https://www.linkedin.com/learning/instructors/robin-andrews?u=104).
+
 [0]: # (Replace these placeholder URLs with actual course URLs)
 
-[lil-course-url]: https://www.linkedin.com/learning/
+[lil-course-url]: https://www.linkedin.com/learning/data-visualization-in-python-with-dash
 [lil-thumbnail-url]: https://media.licdn.com/dms/image/v2/D560DAQEAeskwXJ66Cw/learning-public-crop_675_1200/B56ZS91c0IGQAY-/0/1738351693741?e=2147483647&v=beta&t=kNWAg9Z4js9NGvU3gBMdTJTdE_UIwZKZ6Sd-YPLnqjE
