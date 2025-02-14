@@ -2,6 +2,8 @@
 
 This is the repository for the LinkedIn Learning course `Data Visualization in Python with Dash`. The full course is available from [LinkedIn Learning][lil-course-url].
 
+![lil-thumbnail-url]
+
 This course is integrated with GitHub Codespaces, an instant cloud developer environment that offers all the functionality of your favorite IDE without the need for any local machine setup. With GitHub Codespaces, you can get hands-on practice from any machine, at any time-all while using a tool that you'll likely encounter in the workplace. Check out the "Setting up GitHub CodeSpaces" video to learn how to get started.
 
 ## Instructions
@@ -32,4 +34,4 @@ To resolve this issue:
 [0]: # (Replace these placeholder URLs with actual course URLs)
 
 [lil-course-url]: https://www.linkedin.com/learning/
-[lil-thumbnail-url]: http://
+[lil-thumbnail-url]: https://media.licdn.com/dms/image/v2/D560DAQEAeskwXJ66Cw/learning-public-crop_675_1200/B56ZS91c0IGQAY-/0/1738351693741?e=2147483647&v=beta&t=kNWAg9Z4js9NGvU3gBMdTJTdE_UIwZKZ6Sd-YPLnqjE
